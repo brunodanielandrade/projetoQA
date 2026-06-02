@@ -1,5 +1,3 @@
-# projetoQA
-Repositório do projeto de QA
 # Projeto VA02 de QA - BDD com Cypress + Cucumber + Gherkin
 
 ## Descrição
