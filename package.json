@@ -1,0 +1,28 @@
+{
+  "name": "projetoqa",
+  "version": "1.0.0",
+  "description": "Repositório do projeto de QA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunodanielandrade/projetoQA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunodanielandrade/projetoQA/issues"
+  },
+
+  "cypress-cucumber-preprocessor": {
+  "nonGlobalStepDefinitions": false,
+  "step_definitions": "cypress/e2e/steps"
+  },
+  "homepage": "https://github.com/brunodanielandrade/projetoQA#readme",
+  "devDependencies": {
+    "cypress": "^15.16.0"
+  }
+}
